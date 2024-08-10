@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter';
+    background-color: #B0CD3C;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #d9d9d9;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.hero__container {
+    margin-top: 20dvh;
+    display: flex;
+    margin-left: 5dvw;
+    margin-right: 5dvw;
+}
+
+.hero__text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__img {
+    flex: 1;
+}
+
+.hero__text p {
+    color: black;
+    font-size: 3rem;
+ 
+}
+
+.hero__text button {
+    border: 0;
+    background-color: #D17D2F;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.hero__text button a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.flavors__container h1 {
+    margin-bottom: 4rem;
+}
+
+.pintos__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    grid-gap: 4rem;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.pintos__box {
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img__container {
+    flex: 3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img1 {
+    background-image: url(./assets/img-2.svg);
+}
+#img2 {
+    background-image: url(./assets/img-3.svg);
+}
+#img3 {
+    background-image: url(./assets/img-4.svg);
+}
+#img4 {
+    background-image: url(./assets/img-5.svg);
+}
+
+nav {
+    margin-top: 15dvh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+nav section {
+    display: flex;
+    justify-content: space-between;
+} 
+
+article{
+    display: flex;
+    gap: 5dvw; 
+    margin-left: 10dvw; 
+    margin-top: 2rem;
+
+}
+
+article h2 {
+    padding: 1rem 4rem;
+    background-color:#D17D2F;
+    border-radius: 12;
+}
